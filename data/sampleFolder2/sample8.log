@@ -1,0 +1,10 @@
+[Sun Jan 16 17:03:15.480502 2022] [wsgi:error] [pid 1228:tid 1916] [client ::1:49337]   File "C:\\Users\\XXXXX\\anaconda3\\lib\\site-packages\\django\\template\\loader.py", line 61, in render_to_string\r, referer: http://localhost/djangosnippets/
+[Sun Jan 16 17:03:15.480502 2022] [wsgi:error] [pid 1228:tid 1916] [client ::1:49337]     template = get_template(template_name, using=using)\r, referer: http://localhost/djangosnippets/
+[Sun Jan 16 17:03:15.480502 2022] [wsgi:error] [pid 1228:tid 1916] [client ::1:49337]   File "C:\\Users\\XXXXX\\anaconda3\\lib\\site-packages\\django\\template\\loader.py", line 15, in get_template\r, referer: http://localhost/djangosnippets/
+[Sun Jan 16 17:03:15.480502 2022] [wsgi:error] [pid 1228:tid 1916] [client ::1:49337]     return engine.get_template(template_name)\r, referer: http://localhost/djangosnippets/
+[Sun Jan 16 17:03:15.480502 2022] [wsgi:error] [pid 1228:tid 1916] [client ::1:49337]   File "C:\\Users\\XXXXX\\anaconda3\\lib\\site-packages\\django\\template\\backends\\django.py", line 34, in get_template\r, referer: http://localhost/djangosnippets/
+[Sun Jan 16 17:03:15.480502 2022] [wsgi:error] [pid 1228:tid 1916] [client ::1:49337]     return Template(self.engine.get_template(template_name), self)\r, referer: http://localhost/djangosnippets/
+[Sun Jan 16 17:03:15.480502 2022] [wsgi:error] [pid 1228:tid 1916] [client ::1:49337]   File "C:\\Users\\XXXXX\\anaconda3\\lib\\site-packages\\django\\template\\engine.py", line 163, in get_template\r, referer: http://localhost/djangosnippets/
+[Sun Jan 16 17:03:15.480502 2022] [wsgi:error] [pid 1228:tid 1916] [client ::1:49337]     template, origin = self.find_template(template_name)\r, referer: http://localhost/djangosnippets/
+[Sun Jan 16 17:03:15.480502 2022] [wsgi:error] [pid 1228:tid 1916] [client ::1:49337]   File "C:\\Users\\XXXXX\\anaconda3\\lib\\site-packages\\django\\template\\engine.py", line 145, in find_template\r, referer: http://localhost/djangosnippets/
+[Sun Jan 16 17:03:15.480502 2022] [wsgi:error] [pid 1228:tid 1916] [client ::1:49337]     template = loader.get_template(name, skip=skip)\r, referer: http://localhost/djangosnippets/
